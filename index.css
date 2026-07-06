@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  /* Additional SaaS color variables if needed */
+  --color-brand-primary: #6366f1; /* Indigo */
+  --color-brand-secondary: #3b82f6; /* Blue */
+}
+
+/* Custom global styles for smooth scrolling and clean scrollbar */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fcfcfd;
+  color: #111827;
+  font-family: var(--font-sans);
+}
+
+/* Glassmorphism utility class */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.glass-panel-dark {
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
