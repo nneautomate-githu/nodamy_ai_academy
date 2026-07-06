@@ -1,0 +1,6 @@
+{
+  "name": "Nodamy AI Academy",
+  "description": "Premium AI Academy offering hands-on training to master practical AI skills, prompt engineering, no-code app development, and content creation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
